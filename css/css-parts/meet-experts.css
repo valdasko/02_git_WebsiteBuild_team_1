@@ -1,3 +1,105 @@
-.me .main-title {
-  font-size: 45px;
+html {
+  font-size: 62.5%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.tac {
+  text-align: center;
+}
+
+.experts {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.section-title {
+  font-size: 3.6rem;
+  color: #222222;
+  margin-bottom: 1.2rem;
+}
+
+.section-para {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  color: #777777;
+  margin-bottom: 3rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 117rem;
+  margin: 0 auto;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 3.5rem;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.one-member {
+  max-width: 26.25rem;
+  height: 38rem;
+}
+.member-name {
+  margin-bottom: 0.5rem;
+  color: #222222;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.member-position {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  color: #777777;
+  margin-bottom: 0rem;
+}
+.img-container {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fab700;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a {
+  padding: 0 1rem;
+  color: gray;
+}
+a:hover {
+  color: #333;
 }
