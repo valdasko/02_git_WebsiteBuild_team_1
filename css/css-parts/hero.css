@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 /* Hero */
 .hero {
   background-image: url(/images/home-banner.jpg);
