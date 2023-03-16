@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* About HERO Section */
+.heroSection {
+  background-image: url(../img/aboutPart/banner.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  color: white;
+}
+.nav {
+  align-self: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+  font-size: 14px;
+  transition-duration: 1s;
+}
+nav a:hover {
+  color: #ffc107;
+}
+h1 {
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+/* About Main */
+
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0;
+  gap: 100px;
+}
+.aboutUsParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.aboutUsTitle {
+  font-size: 36px;
+  font-weight: 500;
+}
+.aboutUsText {
+  font-size: 14px;
+  color: #777777;
+  line-height: 18px;
+}
+.aboutUsBtn {
+  background-color: #222222;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  transition-duration: 1s;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.aboutUsBtn:hover {
+  background-color: #ffc107;
+  color: black;
+}

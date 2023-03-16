@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+/* Hero */
+.hero {
+  background-image: url(/images/home-banner.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  background-color: #fab700;
+  padding: 2px 4px 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+.hero p {
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #222222;
+  color: #fab700;
+  padding: 20px 44px;
+  border: none;
+  border-radius: 8px;
+  transition-duration: 1s;
+}
+.hero button:hover {
+  background-color: #fab700;
+  color: #000;
+}

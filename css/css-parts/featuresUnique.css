@@ -1,0 +1,68 @@
+.featuresUnique {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.featuresUnique h2 {
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  color: #222222;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.featuresUnique i::before {
+  font-size: 24px;
+  padding-right: 15px;
+  top: 4px;
+}
+
+.featuresUnique p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  color: #777777;
+  margin-bottom: 0;
+}
+
+.featuresUnique .featuresText {
+  text-align: center;
+  margin-bottom: 75px;
+  /* max-width: 720px; */
+  display: block;
+}
+
+.featuresUnique .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.featuresUnique .card {
+  padding: 40px 40px 40px 40px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.featuresUnique .card:hover {
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0px 10px 20px #7777775b;
+}
+
+.featuresUnique .card h4 {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.featuresUnique .card:hover h4 {
+  color: #ffc107;
+}
