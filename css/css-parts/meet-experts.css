@@ -67,7 +67,7 @@ html {
 .img-container {
   position: relative;
 }
-.overlay {
+.experts .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
