@@ -12,9 +12,11 @@
 }
 
 .featuresUnique i::before {
+  color: black;
   font-size: 24px;
   padding-right: 15px;
   top: 4px;
+  transition: 0.5s;
 }
 
 .featuresUnique p {
@@ -64,5 +66,8 @@
 }
 
 .featuresUnique .card:hover h4 {
+  color: #ffc107;
+}
+.featuresUnique .card:hover i::before {
   color: #ffc107;
 }
