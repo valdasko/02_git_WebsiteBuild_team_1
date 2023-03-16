@@ -1,0 +1,33 @@
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777777;
+    margin: 0;
+}
+.area {
+    display: flex;
+    padding: 120px 0px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 15px;
+    display: flex;
+    gap: 40px;
+}
+.item {
+  text-align: center;
+  width: 162px;
+  height: 70px;
+}
+.item img {
+    width: auto;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    margin: auto;
+    opacity: .5;
+    margin: 0px 30px;
+}
