@@ -20,5 +20,5 @@ header {
 }
 .mainNav a:hover {
   color: #fab700;
-  position: fixed;
+  /* position: fixed; */
 }
