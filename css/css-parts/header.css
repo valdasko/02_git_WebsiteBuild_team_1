@@ -2,23 +2,30 @@
 
 header {
   display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
   justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   align-items: center;
+  z-index: 100;
 }
 #navHome {
   color: #fab700;
 }
-
+.mainNav {
+  display: flex;
+}
 .mainNav a {
   text-decoration: none;
   color: black;
   font-size: 12px;
   transition-duration: 1s;
   margin-left: 30px;
+  line-height: 70px;
+
 }
 .mainNav a:hover {
   color: #fab700;
-  /* position: fixed; */
 }
