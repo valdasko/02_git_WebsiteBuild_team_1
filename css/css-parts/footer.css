@@ -2,13 +2,15 @@
 .ft p {
   line-height: 24px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: #777777;
 }
+
 .ft {
   background: #222222;
 }
+
 .container {
   max-width: 960px;
   width: 100%;
@@ -17,6 +19,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 .row-3,
 .row {
   color: #fff;
@@ -27,17 +30,16 @@
   margin-right: auto;
   margin-left: auto;
 }
-/* .row {
-  display: flex;
-} */
+
 .footer_title {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
   margin-bottom: 28px;
 }
+
 .row-footer {
   display: flex;
   justify-content: space-between;
@@ -45,24 +47,35 @@
   padding-top: 85px;
   padding-bottom: 120px;
 }
+
 .row-3 {
   padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
 }
+
 .text {
   display: flex;
 }
+
 .footer-social {
   display: flex;
 }
-/* .footer-social a{ */
+
 i {
   color: #fff;
+  padding-left: 16px;
 }
+
 input {
-  padding: 7px;
-  border-radius: 14px;
+  padding: 8px;
+  /* padding-bottom: 8px; */
+  border-radius: 18px;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
 }
 
 a {
@@ -70,19 +83,84 @@ a {
   display: block;
   color: #fab700;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
 .colorlib-brand {
   font-size: 14px;
+  display: contents;
 }
+
 .sub-btn {
-  padding: 14px;
-  border-radius: 14px;
+  padding: 0px;
+  border:0px;
+  border-radius: 50%;
+  position: absolute;
+  right: 54px;
   background-color: #fab700;
 }
 
-.lnr-arrow-right::before {
+/* .lnr-arrow-right::before {
   content: ">";
+} */
+
+/* arrox-right */
+/* .lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 14px;
+  height: 14px;
+  vertical-align: -0.05em;
+  border-radius: 20px;
+} */
+
+/* .lnr-arrow-right {
+  color: #222222; */
+/* We can use "color" for setting the color
+  of the SVG because we set its "fill" to
+  "currentColor" */
+/* font-size: 12px; */
+/* We can use "font-size" for changing the size
+  of the SVG because its width and height were
+  set 1em.
+  To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+/* } */
+
+/* body {
+  font-size: px;
+  font-family: sans-serif;
+  color: #555;
+} */
+
+/* Add the following CSS block to your own
+stylesheet. */
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: 0.15em;
 }
+
+.lnr-arrow-right {
+  color: #777777;
+  /* We can use "color" for setting the color
+  of the SVG because we set its "fill" to
+  "currentColor" */
+  font-size: 22px;
+  /* We can use "font-size" for changing the size
+  of the SVG because its width and height were
+  set 1em.
+  To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}
+
+/* body {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #555;
+} */
