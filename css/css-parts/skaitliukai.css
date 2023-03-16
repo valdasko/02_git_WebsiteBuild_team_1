@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.section-skaitliukai {
+    background-color: rgb(250, 183, 0);
+    /* padding: 1rem; */
+    width: 100%;
+    margin: 0;
+}
+.container-skaitliukai {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 10rem;
+}
+
+.skait-h4 {
+    font-size: 4.8rem;
+    margin: 0;
+}
+
+.skait-p {
+    font-size: 1.4rem;
+}
