@@ -23,4 +23,8 @@
     margin: auto;
     opacity: .5;
     margin: 0px 30px;
+    transition: 0.5s;
+}
+.sponsors-item img:hover {
+    opacity: 1;
 }
