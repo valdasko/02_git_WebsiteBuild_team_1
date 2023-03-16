@@ -15,7 +15,7 @@ body {
     margin-left: auto;
     padding: 0px 15px;
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 .item {
   text-align: center;
