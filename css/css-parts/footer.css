@@ -1,11 +1,13 @@
 /* export */
-body,
-p {
+.ft p {
   line-height: 24px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #777777;
+}
+.ft {
+  background: #222222;
 }
 .container {
   max-width: 960px;
@@ -17,7 +19,6 @@ p {
 }
 .row-3,
 .row {
-  background: #222222;
   color: #fff;
   max-width: 960px;
   width: 100%;
