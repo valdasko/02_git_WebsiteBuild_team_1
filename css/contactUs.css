@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactUs {
+    padding-bottom: 120px;
+}
+
+.contactUs .bgr .top {
+  text-align: center;
+  background-image: url('https://preview.colorlib.com/theme/builder/img/banner/banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  min-height: 200px;
+max-width: 2000px;
+margin:auto;
+}
+
+.contactUs .bgr {
+    background-color: black;
+}
+
+.contactUs .top i {
+    padding-top: 4rem;
+    font-size: 0.8rem;
+    transition: 0.5s;
+}
+
+.contactUs .top i:hover {
+    color: #ffc107
+}
+
+.contactUs .top i::before , .contactUs .top i::after {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contactUs .top a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    transition: 0.5s;
+}
+
+.contactUs .top a:first-child:hover , .contactUs .top a:hover + i {
+    color: #ffc107
+}
+
+.contactUs .top h1 {
+    font-size: 38px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.contactUs .formsAndMaps {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.contactUs .formsAndMaps .map {
+  padding-top: 120px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contactUs .formsAndMaps .map iframe {
+    width: 100%;
+}
+
+.contactUs .formsAndMaps .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactUs .formsAndMaps .contacts{
+    width: 30%;
+}
+
+.contactUs .formsAndMaps .contacts .infoArea {
+    display: flex;
+}
+
+
+.contactUs .formsAndMaps .contacts h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #222222;
+    font-family: "Oswald", sans-serif
+}
+
+.contactUs .formsAndMaps .contacts p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    padding: 2px 0;
+}
+
+.contactUs .formsAndMaps .contacts i {
+    font-size: 20px;
+    color: #ffc107;
+}
+
+.contactUs .formsAndMaps .contacts i:before {
+    padding-right: 1.5rem;
+}
+
+.contactUs .formsAndMaps form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    }
+
+    .contactUs .formsAndMaps form input {
+        font-size: 13px;
+        line-height: 26px;
+        border: 1px solid #eeeeee;
+        font-family: "Roboto", sans-serif;
+        border-radius: 0px;
+        padding-left: 20px;
+        padding-top: 0.375rem;
+        padding-right: 0.75rem;
+        padding-bottom: 0.375rem;
+    }
+
+    .contactUs .formsAndMaps form textarea {
+        font-size: 13px;
+        border: 1px solid #eeeeee;
+        font-family: "Roboto", sans-serif;
+        padding: 0.70rem 0.75rem;
+    }
+
+.contactUs .formsAndMaps .leftInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    grid-column: 1 / span 2;
+    justify-self: end;
+    cursor: pointer;
+    padding: 0 50px;
+    background-color: #fab700;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 50px;
+    color: white;
+    border: 1px solid #fab700;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #fab700;
+}
