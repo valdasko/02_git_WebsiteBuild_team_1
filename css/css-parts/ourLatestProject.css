@@ -1,0 +1,62 @@
+/* Our Latest Project */
+.ourLatestPrj {
+  text-align: center;
+  max-width: 100%;
+}
+.ourLatestPrj h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.ourLatestPrj p {
+  color: #777;
+  margin-bottom: 75px;
+}
+
+.pjrImages {
+  width: 100v;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.prjImg {
+  position: relative;
+}
+
+.prjImg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.prjImg:hover .overlay {
+  background-color: #ffc107;
+  opacity: 0.8;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+.overlay h3 {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay p {
+  color: black;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
