@@ -1,15 +1,19 @@
 /* header */
 
 header {
-  display: flex;
+  
   position: fixed;
   width: 100%;
   background-color: white;
+  
+  z-index: 100;
+}
+.header-container {
+  display: flex;
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
   align-items: center;
-  z-index: 100;
 }
 #navHome {
   color: #fab700;
