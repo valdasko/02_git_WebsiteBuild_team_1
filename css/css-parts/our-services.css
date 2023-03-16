@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.our-service {
+    max-width: 100rem;
+    text-align: center;
+    padding: 12rem 0;
+    margin: 0 auto;
+}
+
+.our-services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.our-services-individual {
+    padding: 4.5rem 5.5rem;
+}
+
+.our-services-h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.our-services-p {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #777777;
+}
+
+.our-services-h4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
