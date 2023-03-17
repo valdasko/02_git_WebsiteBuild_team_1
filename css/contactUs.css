@@ -12,12 +12,21 @@
   background-image: url('https://preview.colorlib.com/theme/builder/img/banner/banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-size: contain ;
   color: white;
-  min-height: 200px;
+  min-height: 300px;
+  height: 125%;
 max-width: 2000px;
 margin:auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+z-index: 99;
+}
+
+.contactUs .bgr .top nav {
+    padding-top: 5rem;
 }
 
 .contactUs .bgr {
