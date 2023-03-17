@@ -1,7 +1,12 @@
+@import './css-parts/header.css';
+@import './css-parts/footer.css';
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
 
 .contactUs {
     padding-bottom: 120px;
@@ -175,4 +180,8 @@ z-index: 99;
 .btn:hover {
     background-color: white;
     color: #fab700;
+}
+
+.arrow-btn {
+    right: 19px;
 }
