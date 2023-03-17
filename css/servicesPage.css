@@ -17,6 +17,9 @@ body {
   height: 300px;
   width: 100%;
   color: white;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover ;
 }
 .nav {
   align-self: center;
