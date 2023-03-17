@@ -81,7 +81,10 @@ footer a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-
+.phone {
+  margin: 0;
+  padding: 0;
+}
 .colorlib-brand {
   font-size: 14px;
   display: contents;
