@@ -96,10 +96,10 @@ html {
   text-align: center;
 }
 
-a {
+.members a {
   padding: 0 1rem;
   color: gray;
 }
-a:hover {
+.members a:hover {
   color: #333;
 }
