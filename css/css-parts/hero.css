@@ -30,6 +30,9 @@ h1 span {
 .hero p {
   color: whitesmoke;
   margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif, 'Oswald';
+  font-size: 14px;
+  text-align: center;
 }
 
 .hero button {
