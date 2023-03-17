@@ -1,5 +1,6 @@
 @import '/css/css-parts/header.css';
 @import '/css/css-parts/skaitliukai.css';
+@import '/css/css-parts/footer.css';
 * {
   margin: 0;
 }
