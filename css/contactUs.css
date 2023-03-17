@@ -163,7 +163,7 @@ z-index: 99;
     justify-content: space-between;
 }
 
-.btn {
+.contactUs .formsAndMaps .btn {
     grid-column: 1 / span 2;
     justify-self: end;
     cursor: pointer;
@@ -177,7 +177,7 @@ z-index: 99;
     transition: 0.5s;
 }
 
-.btn:hover {
+.contactUs .formsAndMaps .btn:hover {
     background-color: white;
     color: #fab700;
 }

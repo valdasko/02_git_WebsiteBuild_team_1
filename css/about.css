@@ -112,6 +112,7 @@ main {
   transition-duration: 1s;
   font-weight: 700;
   margin-top: 20px;
+  cursor: pointer;
 }
 .aboutUsBtn:hover {
   background-color: #ffc107;
