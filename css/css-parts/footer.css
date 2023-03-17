@@ -54,7 +54,7 @@ footer {
   display: flex;
 }
 
-.text {
+.row-footer .text {
   display: flex;
 }
 
@@ -62,12 +62,12 @@ footer {
   display: flex;
 }
 
-i {
+.footer-social i {
   color: #fff;
   padding-left: 16px;
 }
 
-input {
+.input-group input {
   padding: 8px;
   border-radius: 18px;
   width: 100%;
@@ -79,7 +79,7 @@ input {
   position: relative;
 }
 
-a {
+footer a {
   margin-left: 6px;
   display: block;
   color: #fab700;
