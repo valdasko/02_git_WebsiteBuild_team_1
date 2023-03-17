@@ -3,6 +3,7 @@
 @import './css-parts/footer.css';
 @import './css-parts/meet-experts.css';
 @import './css-parts/reviews.css';
+@import './css-parts/sponsors.css';
 
 * {
   margin: 0;
@@ -22,7 +23,7 @@ body {
   color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain ;
+  background-size: contain;
 }
 .nav {
   align-self: center;
