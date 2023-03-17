@@ -1,5 +1,5 @@
 /* export */
-.ft p {
+footer p {
   line-height: 24px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -7,7 +7,7 @@
   color: #777777;
 }
 
-.ft {
+footer {
   background: #222222;
 }
 
@@ -69,13 +69,14 @@ i {
 
 input {
   padding: 8px;
-  /* padding-bottom: 8px; */
   border-radius: 18px;
+  width: 100%;
+  max-width: 80%;
+  padding: 12px;
 }
 
 .input-group {
   position: relative;
-  width: 100%;
 }
 
 a {
@@ -93,50 +94,14 @@ a {
 }
 
 .sub-btn {
-  padding: 0px;
-  border:0px;
+  padding: 10px;
+  border: 0px;
   border-radius: 50%;
   position: absolute;
-  right: 54px;
+  right: 20px;
   background-color: #fab700;
 }
 
-/* .lnr-arrow-right::before {
-  content: ">";
-} */
-
-/* arrox-right */
-/* .lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 14px;
-  height: 14px;
-  vertical-align: -0.05em;
-  border-radius: 20px;
-} */
-
-/* .lnr-arrow-right {
-  color: #222222; */
-/* We can use "color" for setting the color
-  of the SVG because we set its "fill" to
-  "currentColor" */
-/* font-size: 12px; */
-/* We can use "font-size" for changing the size
-  of the SVG because its width and height were
-  set 1em.
-  To get crisp results, use sizes that are
-  a multiple of 20; because Linearicons was
-  designed on a 20 by 20 grid. */
-/* } */
-
-/* body {
-  font-size: px;
-  font-family: sans-serif;
-  color: #555;
-} */
-
-/* Add the following CSS block to your own
-stylesheet. */
 .lnr {
   display: inline-block;
   fill: currentColor;
@@ -147,20 +112,5 @@ stylesheet. */
 
 .lnr-arrow-right {
   color: #777777;
-  /* We can use "color" for setting the color
-  of the SVG because we set its "fill" to
-  "currentColor" */
-  font-size: 22px;
-  /* We can use "font-size" for changing the size
-  of the SVG because its width and height were
-  set 1em.
-  To get crisp results, use sizes that are
-  a multiple of 20; because Linearicons was
-  designed on a 20 by 20 grid. */
+  font-size: 14px;
 }
-
-/* body {
-  font-size: 40px;
-  font-family: sans-serif;
-  color: #555;
-} */
