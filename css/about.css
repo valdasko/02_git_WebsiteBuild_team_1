@@ -25,11 +25,11 @@ body {
   background-attachment: fixed;
   background-size: contain;
 }
-.nav {
+.heroSection .nav {
   align-self: center;
 }
 
-nav a {
+.heroSection nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -37,7 +37,7 @@ nav a {
   font-size: 14px;
   transition-duration: 1s;
 }
-nav a:hover {
+.heroSection nav a:hover {
   color: #ffc107;
 }
 
@@ -47,16 +47,16 @@ nav a:hover {
   transition: 0.5s;
 }
 
-nav i:hover {
+.heroSection nav i:hover {
   color: #ffc107
 }
 
-nav i::before , nav i::after {
+.heroSection nav i::before , nav i::after {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-nav a {
+.heroSection nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -67,11 +67,11 @@ nav a {
   padding-right: 0;
 }
 
-nav a:first-child:hover , nav a:hover + i {
+.heroSection nav a:first-child:hover , nav a:hover + i {
   color: #ffc107
 }
 
-nav a:hover {
+.heroSection nav a:hover {
   color: #ffc107
 }
 
