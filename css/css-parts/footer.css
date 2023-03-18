@@ -43,6 +43,7 @@ button:focus {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -51,17 +52,21 @@ button:focus {
   margin-right: auto;
   margin-left: auto;
 }
+
 .footer-area {
   background: #222222;
 }
+
 .footer-bottom {
   padding-top: 85px;
 }
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-bottom .footer-text a {
   color: #fab700;
 }
@@ -70,7 +75,9 @@ button:focus {
   text-align: right;
 }
 
-div.contact_wd:nth-child(1) p{padding-bottom:  15px;}
+div.contact_wd:nth-child(1) p {
+  padding-bottom: 15px;
+}
 
 .footer-bottom .footer-social a {
   font-size: 14px;
@@ -98,71 +105,71 @@ div.contact_wd:nth-child(1) p{padding-bottom:  15px;}
 .row {
   display: flex;
 }
+
 .col-lg-3 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .col-lg-5 {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 98px;
 }
+
 .single-footer-widget .input-group {
-    display: block !important;
+  display: block !important;
 }
-.mc_embed_signup{
-    /* btn area */
-}
-/* .subscribe_form relative{} */
+
 .input-group,
 .d-flex,
 .flex-row {
-    position: relative;
-    /* display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: stretch;
-    align-items: stretch; */
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .input-group {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: stretch;
-        align-items: stretch;
-    width: 100%;
-  }
-  .d-flex {
-    display: -ms-flexbox !important;
-    display: flex !important;
-  }
-  .flex-row {
-    -ms-flex-direction: row !important;
-        flex-direction: row !important;
-  }
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-row {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
 
 .instafeed {
   margin-left: -5px;
   margin-right: -5px;
-
 }
+
 .contact_wd a {
   display: block;
   color: #fab700;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 .form {
-    display: block;
-    margin-top: 0em;
+  display: block;
+  margin-top: 0em;
 }
+
 .subscribe_form {
   padding-top: 25px;
 }
+
 .input-group {
   display: block !important;
 }
@@ -186,55 +193,28 @@ input {
         } */
 }
 
-input[type="email" i] {
-    padding: 1px 2px;
+input[type='email' i] {
+  padding: 1px 2px;
 }
-/* .sub-btn { */
-  /* background: $baseColor; */
-  /* color: $dip; */
-  /* font-weight: 300;
+
+.sub-btn {
+  font-weight: 300;
   line-height: 30px;
+  background-color: #fab700;
   padding: 0px;
-  height: 36px;
-  width: 36px;
+  height: 38px;
+  width: 38px;
   cursor: pointer;
   position: absolute;
-  right: 2px;
+  right: -2px;
   border-radius: 50%;
-  top: 2px;
-} */
-/* } */
-.sub-btn {
-    font-weight: 300;
-    line-height: 30px;
-    background-color: #fab700;
-    padding: 0px;
-    height: 38px;
-    width: 38px;
-    cursor: pointer;
-    position: absolute;
-    right: -2px;
-    border-radius: 50%;
-    top: 3px;
+  top: 3px;
 }
 
 .contact_wd {
   margin-right: -15px;
-  /* p{
-		margin-bottom: 15px;
-	}
-	a{
-		display: block;
-		color: $baseColor;
-		font-size: 24px;
-		font-family: $rob;
-		font-weight: 500;
-		margin-bottom: 10px;
-		& + a{
-			margin-bottom: 0px;
-		}
-	} */
 }
+
 .footer_title {
   font-size: 20px;
   line-height: 24px;
@@ -242,6 +222,7 @@ input[type="email" i] {
   color: #fff;
   margin-bottom: 28px;
 }
+
 .border_line {
   width: 100%;
   height: 1px;
@@ -249,34 +230,6 @@ input[type="email" i] {
   margin-top: 30px;
 }
 
-/* .footer-bottom{
-    padding-top: 85px;
-    .footer-text{
-        a{
-            color: $baseColor;
-        }
-    }
-    .footer-social{
-        text-align: right;
-        a{
-            font-size: 14px;
-            line-height: 30px;
-            color: #fff;
-            margin-left: 6px;
-            transition: all 0.3s linear;
-			background: #111111;
-			height: 30px;
-			width: 30px;
-			text-align: center;
-			display: inline-block;
-			@include transition;
-            &:hover{
-                color: $dip;
-				background: $baseColor;
-            }
-        }
-    }
-} */
 .lnr {
   /* display: inline-block; */
   fill: currentColor;
