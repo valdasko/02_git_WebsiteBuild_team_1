@@ -1,0 +1,141 @@
+/* export */
+footer p {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #777777;
+}
+
+footer {
+  background: #222222;
+}
+
+.row-3,
+.row-2 {
+  color: #fff;
+  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.footer-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 85px;
+  padding-bottom: 120px;
+}
+
+.row-3 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+/* .row-footer .text {
+  display: flex;
+} */
+
+.footer-social {
+  display: flex;
+}
+.fa-hover:hover {
+  background: #fab700;
+  color: #111111;
+}
+
+.row-4 {
+  background: #111111;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer-social i {
+  display: flex;
+  color: #fff;
+  background: #111111;
+  height: 30px;
+  width: 30px;
+  padding-left: 16px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.input-group input {
+  border-radius: 22px;
+  width: 100%;
+  max-width: 80%;
+  padding: 14px;
+}
+
+.input-group {
+  position: relative;
+}
+
+footer a {
+  margin-left: 6px;
+  display: block;
+  color: #fab700;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.col-footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.news-letter {
+  margin-left: 80px;
+}
+
+.phone {
+  margin: 0;
+  padding: 0;
+}
+.colorlib-brand {
+  font-size: 14px;
+  display: contents;
+}
+
+.arrow-btn {
+  padding: 10px;
+  border: 0px;
+  border-radius: 50%;
+  position: absolute;
+  right: 14px;
+  background-color: #fab700;
+}
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: 0.3em;
+}
+
+.lnr-arrow-right {
+  color: #777777;
+  font-size: 14px;
+}
