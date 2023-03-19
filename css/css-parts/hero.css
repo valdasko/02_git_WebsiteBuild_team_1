@@ -3,7 +3,7 @@
 }
 /* Hero */
 .hero {
-  background-image: url(/images/home-banner.jpg);
+  background-image: url(/img/home-banner.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
