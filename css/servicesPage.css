@@ -22,8 +22,11 @@ body {
   background-attachment: fixed;
   background-size: contain ;
 }
-.nav {
+.main-nav {
   align-self: center;
+  display: flex;
+  align-items: center;
+  /* align-items: center; */
 }
 
 nav i {
@@ -84,6 +87,8 @@ h1 {
 /* MAIN */
 
 main {
+  max-width: 1170px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,7 +109,7 @@ main p {
 .servicesParagraphs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 0 125px;
+  /* padding: 0 125px; */
 }
 
 .our-services-individual {
@@ -113,6 +118,8 @@ main p {
   margin-bottom: 15px;
   margin-right: 15px;
   transition-duration: 1s;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .our-services-individual:hover {
   box-shadow: 3px 3px 3px 3px gray;

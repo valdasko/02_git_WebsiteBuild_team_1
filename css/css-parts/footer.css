@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 /* export */
 footer p {
   line-height: 24px;
@@ -75,10 +78,13 @@ footer {
   height: 30px;
   width: 30px;
   padding-left: 16px;
+  padding-right: 30px;
   align-items: center;
   font-size: 18px;
 }
-
+.footer-social i:hover {
+  background-color: #fab700;
+}
 .input-group input {
   border-radius: 22px;
   width: 100%;
