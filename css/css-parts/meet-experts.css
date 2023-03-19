@@ -1,3 +1,7 @@
+
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
   font-family: 'Oswald', sans-serif;
@@ -27,9 +31,6 @@ html {
   margin-bottom: 3rem;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .container {
   max-width: 117rem;
@@ -38,7 +39,7 @@ html {
 
 .members {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   gap: 3.5rem;
 }
 
